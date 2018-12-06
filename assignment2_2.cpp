@@ -10,8 +10,8 @@
 #include "examples.h"
 
 int main() {
-	cv::Mat src_small = cv::imread("./samples/floodfil_small.bmp", cv::IMREAD_GRAYSCALE);
-	cv::Mat src_big = cv::imread("./samples/floodfill_sample.bmp", cv::IMREAD_GRAYSCALE);
+	cv::Mat src_small = cv::imread("test.bmp", cv::IMREAD_GRAYSCALE);
+	cv::Mat src_big = cv::imread("flood_fill_big.png", cv::IMREAD_GRAYSCALE);
 	cv::Mat result_naive_4, result_naive_8, result_efficient_4;
 
 	cv::namedWindow("small src Image", cv::WINDOW_NORMAL);
